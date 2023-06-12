@@ -3,6 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // Codeigniter 3 usage :
 //   Set config/config.app:
 //   $config['composer_autoload'] = 'vendor/autoload.php';
+// composer require ozdemir/datatables
+
+require_once 'vendor/autoload.php';
+
 use Ozdemir\Datatables\Datatables;
 use Ozdemir\Datatables\DB\CodeigniterAdapter;
 class Welcome extends CI_Controller {
